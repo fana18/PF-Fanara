@@ -54,10 +54,17 @@
 }
 
 /* hombres y mujer.html*/
+.card {
+  margin: 15px;
+}
 
 /* nosotros.html */
 
 /*contactanos.html */
 .fondo {
   background-image: url(imagenes/varon/remeracorta/corta6.jpeg);
+}
+
+.maincontacto {
+  height: 95vh;
 }

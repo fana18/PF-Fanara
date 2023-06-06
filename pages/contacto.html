@@ -10,11 +10,14 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <title>C&J</title>
   </head>
   <body class="fondo">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">C&J</a>
           <button
@@ -43,7 +46,7 @@
       </nav>
     </header>
     <h1>Formulario de Contacto</h1>
-    <main>
+    <main class="maincontacto">
       <form class="row g-3 needs-validation" novalidate method="get" action="#">
         <div class="col-md-4 position-relative">
           <label for="validationTooltip01" class="form-label">Nombre</label>
@@ -53,7 +56,6 @@
             id="validationTooltip01"
             name="validationTooltip01"
             required />
-          <div class="valid-tooltip">Looks good!</div>
         </div>
 
         <div class="col-md-4 position-relative">
@@ -64,7 +66,6 @@
             id="validationTooltip02"
             name="validationTooltip02"
             required />
-          <div class="valid-tooltip">Looks good!</div>
         </div>
 
         <div class="col-md-6 position-relative">
@@ -75,7 +76,6 @@
             id="validationTooltip03"
             name="validationTooltip03"
             required />
-          <div class="invalid-tooltip">Please provide a valid city.</div>
         </div>
 
         <div class="col-md-3 position-relative">
@@ -88,7 +88,6 @@
             id="validationTooltip05"
             name="validationTooltip05"
             required />
-          <div class="invalid-tooltip">Please provide a valid zip.</div>
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label"
@@ -120,7 +119,7 @@
     <footer class="bg-light text-dark bg-4 pt-5">
       <div class="container text-center text-md-start">
         <div class="row text-center text-md-start">
-          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
+          <div class="col-lg-3 col-md-3 col-sm-12 mt-3">
             <h5 class="text-primary">Nosotros</h5>
             <hr class="mb-4" />
             <p>
@@ -130,8 +129,7 @@
             </p>
           </div>
 
-          <div
-            class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
+          <div class="col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
             <h5 class="text-primary">menu</h5>
             <hr class="mb-4" />
             <p>
@@ -152,8 +150,7 @@
             </p>
           </div>
 
-          <div
-            class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
+          <div class="col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
             <h5 class="text-primary">Informacion</h5>
             <hr class="mb-4" />
             <p>
@@ -163,7 +160,7 @@
               <li class="fas fa-envelope me-3">Cordoba Capital Argentina</li>
             </p>
             <p>
-              <li class="fas fa-phone me-3">+54</li>
+              <li class="fas fa-phone me-3">+54 9 351 372-7566</li>
             </p>
           </div>
         </div>
