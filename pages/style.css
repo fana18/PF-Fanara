@@ -1,0 +1,63 @@
+.fotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.colordefondo {
+  background-color: rgb(255, 255, 255);
+  width: 1600px;
+  height: 915px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+}
+
+.macho {
+  background-image: url(/pages/imagenes/varon/buzos/buzo7.jpeg);
+  width: 100vh;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colordefondo2 {
+  width: 1600px;
+  height: 90px;
+  display: flex;
+  margin: bottom 95px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.mujerr {
+  background-image: url(/pages/imagenes/mujer/tops/top4.jpeg);
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.hipervinculo {
+  display: flex;
+  font-size: 18px;
+  padding: 18px;
+  border-bottom-left-radius: 16px;
+  color: rgb(255, 0, 242);
+  background-color: rgb(255, 255, 255);
+}
+
+/* hombres y mujer.html*/
+
+/* nosotros.html */
+
+/*contactanos.html */
+.fondo {
+  background-image: url(imagenes/varon/remeracorta/corta6.jpeg);
+}

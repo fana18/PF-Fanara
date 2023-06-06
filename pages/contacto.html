@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>C&J</title>
+  </head>
+  <body class="fondo">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">C&J</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="nosotros.html"
+                >Nosotros</a
+              >
+              <a class="nav-link" href="hombre.html">Hombre</a>
+              <a class="nav-link" href="mujer.html">Mujer</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <h1>Formulario de Contacto</h1>
+    <main>
+      <form class="row g-3 needs-validation" novalidate method="get" action="#">
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip01"
+            name="validationTooltip01"
+            required />
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Apellido</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip02"
+            name="validationTooltip02"
+            required />
+          <div class="valid-tooltip">Looks good!</div>
+        </div>
+
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">Provincia</label>
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip03"
+            name="validationTooltip03"
+            required />
+          <div class="invalid-tooltip">Please provide a valid city.</div>
+        </div>
+
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label"
+            >Codigo Postal</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="validationTooltip05"
+            name="validationTooltip05"
+            required />
+          <div class="invalid-tooltip">Please provide a valid zip.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            name="exampleFormControlInput1"
+            placeholder="maxi@gmail.com" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >mensaje
+          </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            name="exampleFormControlTextarea1S"
+            rows="3"></textarea>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <footer class="bg-light text-dark bg-4 pt-5">
+      <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+          <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
+            <h5 class="text-primary">Nosotros</h5>
+            <hr class="mb-4" />
+            <p>
+              C&J somos una empresa que esta ubicada en la Argentina en la
+              provincial de Cordoba, departamento Capital la cual se dedica a la
+              venta de ropa de mujeres y hombres
+            </p>
+          </div>
+
+          <div
+            class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
+            <h5 class="text-primary">menu</h5>
+            <hr class="mb-4" />
+            <p>
+              <a href="../index.html">C&J</a>
+            </p>
+            <p>
+              <a href="mujer.html">Mujer</a>
+            </p>
+            <p>
+              <a href="hombre.html">Hombre</a>
+            </p>
+            <p>
+              <a href="nosotros.html">Nosotros</a>
+            </p>
+
+            <p>
+              <a href="contacto.html">Contactanos</a>
+            </p>
+          </div>
+
+          <div
+            class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 mx-auto mt-3">
+            <h5 class="text-primary">Informacion</h5>
+            <hr class="mb-4" />
+            <p>
+              <li class="fas fa-home me-3">Cordoba Capital Argentina</li>
+            </p>
+            <p>
+              <li class="fas fa-envelope me-3">Cordoba Capital Argentina</li>
+            </p>
+            <p>
+              <li class="fas fa-phone me-3">+54</li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
