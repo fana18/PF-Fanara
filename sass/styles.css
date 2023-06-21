@@ -4,12 +4,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .colordefondo {
   background-color: rgb(255, 255, 255);
   width: 1600px;
   height: 915px;
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin: 1px;
@@ -19,17 +19,16 @@
   background-image: url(/pages/imagenes/varon/buzos/buzo7.jpeg);
   width: 100vh;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .colordefondo2 {
   width: 1600px;
   height: 90px;
   display: flex;
   margin: bottom 95px;
-
   justify-content: center;
   align-items: center;
 }
@@ -58,13 +57,4 @@
   margin: 15px;
 }
 
-/* nosotros.html */
-
-/*contactanos.html */
-.fondo {
-  background-image: url(imagenes/varon/remeracorta/corta6.jpeg);
-}
-
-.maincontacto {
-  height: 95vh;
-}
+/*# sourceMappingURL=styles.css.map */
