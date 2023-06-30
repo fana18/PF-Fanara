@@ -1,1 +1,10 @@
-{"version":3,"sourceRoot":"","sources":["../sass/style.scss"],"names":[],"mappings":"AAQA;EAPE;EACA;EACA;EACA;EACA","file":"style.css"}
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "../sass/style.scss"
+  ],
+  "names": [],
+  "mappings": "AAaA;EAZE;EACA;EACA;EACA;EACA;EACA;;;AAWF;EACE;;;AAGF;EAZE;EACA;;;AAeF;EAEE;EACA",
+  "file": "style.css"
+}
