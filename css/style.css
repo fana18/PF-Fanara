@@ -1,0 +1,84 @@
+.card-img-top {
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.card {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+.card:hover {
+  transform: scale(1.15);
+  transition: all 0.3s;
+}
+
+.card .card-body {
+  padding: 25px;
+  margin-top: -15px;
+}
+
+.btn-primary {
+  border-radius: 50px;
+  width: 120px;
+}
+
+.btn-primary:hover {
+  background-color: black;
+  border: none;
+}
+
+#buzos-mujer {
+  background-color: #eb9ac0;
+  background-size: cover;
+}
+
+#pantalon {
+  background-color: #f3aacb;
+  background-size: cover;
+}
+
+#tops {
+  background-color: #f7bfd8;
+  background-size: cover;
+}
+
+#calzas {
+  background-color: #fbd5e5;
+  background-size: cover;
+}
+
+#cardigan {
+  background-color: #fdeaf2;
+  background-size: cover;
+}
+
+#poleron {
+  background-color: #eb9ac0;
+  background-size: cover;
+}
+
+#vestido-mangalarga {
+  background-color: #f3aacb;
+  background-size: cover;
+}
+
+#polera {
+  background-color: #f7bfd8;
+  background-size: auto;
+}
+
+#remeras-mangas-larga {
+  background-color: #fbd5e5;
+  background-size: cover;
+}
+
+#sacodehilo {
+  background-color: #fdeaf2;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
