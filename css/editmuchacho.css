@@ -1,0 +1,90 @@
+@media (min-width: 0px) {
+  #buzo {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #756f4b;
+  }
+  #camperas {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #a9a27c;
+  }
+  #remeras-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #a9a27c;
+  }
+  #remeras-hombre #sweater-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #e0d8b0;
+  }
+}
+@media (min-width: 0px) and (min-width: 576px) {
+  #buzo {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #756f4b;
+  }
+  #camperas {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #a9a27c;
+  }
+  #remeras-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #f3dbc3;
+  }
+  #sweater-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #e0d8b0;
+  }
+}
+@media (min-width: 0px) and (min-width: 768px) {
+  #buzo {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #e28000;
+  }
+  #camperas {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #ff9800;
+  }
+  #remeras-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #ffc340;
+  }
+  #sweater-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #f9d7a0;
+  }
+}
+@media (min-width: 0px) and (min-width: 992px) {
+  #buzo {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #e8c39e;
+  }
+  #camperas {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #eaccad;
+  }
+  #remeras-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #f3dbc3;
+  }
+  #sweater-hombre {
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #fdecd4;
+  }
+}
+
+/*# sourceMappingURL=editmuchacho.css.map */

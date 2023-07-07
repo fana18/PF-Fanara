@@ -1,0 +1,89 @@
+@mixin fondo {
+  background-size: cover;
+  background-repeat: repeat;
+}
+@media (min-width: 0px) {
+  #buzo {
+    @include fondo;
+    background-color: #756f4b;
+  }
+
+  #camperas {
+    @include fondo;
+    background-color: #a9a27c;
+  }
+  #remeras-hombre {
+    @include fondo;
+    background-color: #a9a27c;
+
+    #sweater-hombre {
+      @include fondo;
+      background-color: #e0d8b0;
+    }
+  }
+  //sm
+  @media (min-width: 576px) {
+    #buzo {
+      @include fondo;
+      background-color: #756f4b;
+    }
+
+    #camperas {
+      @include fondo;
+      background-color: #a9a27c;
+    }
+    #remeras-hombre {
+      @include fondo;
+      background-color: #f3dbc3;
+    }
+
+    #sweater-hombre {
+      @include fondo;
+      background-color: #e0d8b0;
+    }
+  }
+
+  // Md
+  @media (min-width: 768px) {
+    #buzo {
+      @include fondo;
+      background-color: #e28000;
+    }
+
+    #camperas {
+      @include fondo;
+      background-color: #ff9800;
+    }
+    #remeras-hombre {
+      @include fondo;
+      background-color: #ffc340;
+    }
+
+    #sweater-hombre {
+      @include fondo;
+      background-color: #f9d7a0;
+    }
+  }
+
+  // Lg
+  @media (min-width: 992px) {
+    #buzo {
+      @include fondo;
+      background-color: #e8c39e;
+    }
+
+    #camperas {
+      @include fondo;
+      background-color: #eaccad;
+    }
+    #remeras-hombre {
+      @include fondo;
+      background-color: #f3dbc3;
+    }
+
+    #sweater-hombre {
+      @include fondo;
+      background-color: #fdecd4;
+    }
+  }
+}

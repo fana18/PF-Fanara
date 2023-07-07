@@ -1,0 +1,199 @@
+@mixin fondo {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 0px) {
+  #buzos-mujer {
+    @include fondo;
+    background-color: #239089;
+  }
+
+  #pantalon {
+    @include fondo;
+    background-color: #42a8a1;
+  }
+  #tops {
+    @include fondo;
+    background-color: #5dc1b9;
+  }
+
+  #calzas {
+    @include fondo;
+    background-color: #8ae0db;
+  }
+
+  #cardigan {
+    @include fondo;
+    background-color: #b5ffff;
+  }
+  #poleron {
+    @include fondo();
+    background-color: #239089;
+  }
+  #vestido-mangalarga {
+    @include fondo();
+    background-color: #42a8a1;
+  }
+  #polera {
+    @include fondo();
+    background-color: #5dc1b9;
+  }
+  #remeras-mangas-larga {
+    @include fondo();
+    background-color: #8ae0db;
+  }
+
+  #sacodehilo {
+    @include fondo();
+    background-color: #b5ffff;
+  }
+}
+
+//sm
+@media (min-width: 576px) {
+  #buzos-mujer {
+    @include fondo;
+    background-color: #239089;
+  }
+
+  #pantalon {
+    @include fondo;
+    background-color: #42a8a1;
+  }
+  #tops {
+    @include fondo;
+    background-color: #5dc1b9;
+  }
+
+  #calzas {
+    @include fondo;
+    background-color: #8ae0db;
+  }
+
+  #cardigan {
+    @include fondo;
+    background-color: #b5ffff;
+  }
+  #poleron {
+    @include fondo();
+    background-color: #239089;
+  }
+  #vestido-mangalarga {
+    @include fondo();
+    background-color: #42a8a1;
+  }
+  #polera {
+    @include fondo();
+    background-color: #5dc1b9;
+  }
+  #remeras-mangas-larga {
+    @include fondo();
+    background-color: #8ae0db;
+  }
+
+  #sacodehilo {
+    @include fondo();
+    background-color: #b5ffff;
+  }
+}
+
+// Md
+@media (min-width: 768px) {
+  #buzos-mujer {
+    @include fondo;
+
+    background-color: #732571;
+  }
+
+  #pantalon {
+    @include fondo;
+    background-color: #964f95;
+  }
+  #tops {
+    @include fondo;
+    background-color: #b979b8;
+  }
+
+  #calzas {
+    @include fondo;
+    background-color: #dca2dc;
+  }
+
+  #cardigan {
+    @include fondo;
+    background-color: #ffccff;
+  }
+  #poleron {
+    @include fondo();
+    background-color: #732571;
+  }
+  #vestido-mangalarga {
+    @include fondo();
+    background-color: #964f95;
+  }
+  #polera {
+    @include fondo();
+    background-color: #b979b8;
+  }
+  #remeras-mangas-larga {
+    @include fondo();
+    background-color: #dca2dc;
+  }
+
+  #sacodehilo {
+    @include fondo();
+    background-color: #ffccff;
+  }
+}
+
+// Lg
+@media (min-width: 992px) {
+  #buzos-mujer {
+    @include fondo;
+
+    background-color: #eb9ac0;
+  }
+
+  #pantalon {
+    @include fondo;
+    background-color: #f3aacb;
+  }
+  #tops {
+    @include fondo;
+    background-color: #f7bfd8;
+  }
+
+  #calzas {
+    @include fondo;
+    background-color: #fbd5e5;
+  }
+
+  #cardigan {
+    @include fondo;
+    background-color: #fdeaf2;
+  }
+  #poleron {
+    @include fondo();
+    background-color: #eb9ac0;
+  }
+  #vestido-mangalarga {
+    @include fondo();
+    background-color: #f3aacb;
+  }
+  #polera {
+    @include fondo();
+    background-color: #f7bfd8;
+  }
+  #remeras-mangas-larga {
+    @include fondo();
+    background-color: #f7bfd8;
+  }
+
+  #sacodehilo {
+    @include fondo();
+    background-color: #fdeaf2;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
