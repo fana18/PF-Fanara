@@ -1,0 +1,182 @@
+nav.principal ul {
+  @include navul();
+}
+nav.principal ul li a {
+  @include navulli();
+}
+
+header {
+  @include header();
+}
+
+header nav li {
+  @include navli();
+}
+
+/*BANNER*/
+.section {
+  @include bannersection;
+}
+
+.section p {
+  @include pbanner();
+}
+.banner-area {
+  @include bannerarea();
+}
+.banner-area .banner-img {
+  @include bannerimg();
+  background-image: url(https://img.freepik.com/fotos-premium/joven-traje-hombre-barba-retrato-masculino-sobre-fondo-negro-hombre-elegante-foto-blanco-negro-modelo-masculino-retrato-estudio-chico-traje-clasico_154724-54.jpg);
+}
+
+.banner-area h1 {
+  @include h1banner();
+}
+.banner-area h3 {
+  @include h3banner();
+}
+.banner-area a.banner-btn {
+  @include bannerbtn();
+}
+
+/*NOSOTROS*/
+
+ul.nosotros-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.nosotros-content li {
+  padding: 20px;
+  height: 290px;
+  background-clip: content-box;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.nosotros-izq {
+  flex-basis: 40%;
+  background-image: url(../pages/imagenes/logo/logo.jpeg);
+}
+
+.nosotros-der {
+  flex-basis: 60%;
+}
+
+.nosotros-area p {
+  max-width: 800px;
+  margin-bottom: 35px;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 0;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.nosotros-der h2 {
+  margin-bottom: 3%;
+}
+
+.nosotros-btn {
+  padding: 15px 35px;
+  background: crimson;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/*servicios*/
+.servicios-area {
+  background: #ddd;
+}
+
+ul.servicios-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.servicios-content li {
+  padding: 0 30px;
+  flex-basis: 33%;
+  text-align: center;
+
+  i {
+    font-size: 50px;
+    color: crimson;
+    margin-bottom: 25px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+/*Footer*/
+.pie-pagina {
+  @include footerg0();
+}
+.pie-pagina .grupo-1 {
+  @include footerg1();
+}
+.pie-pagina .grupo-1 .box figure {
+  @include footerfigure();
+}
+.pie-pagina .grupo-1 .box figure img {
+  @include footerimg();
+}
+.pie-pagina .grupo-1 .box h2 {
+  @include footerboxh2();
+}
+.pie-pagina .grupo-1 .box p {
+  @include footerboxp();
+}
+.pie-pagina .grupo-1 .red-social a {
+  @include footerredsocial();
+}
+
+.pie-pagina .grupo-2 {
+  @include footerg2();
+}
+.pie-pagina .grupo-2 small {
+  @include footersmall();
+}
+
+ .formm {
+  background-image: url(https://i.ytimg.com/vi/na4vmhat_dY/maxresdefault.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.8;
+  }
+}
