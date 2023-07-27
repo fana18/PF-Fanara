@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .color1 {
@@ -33,7 +34,6 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
   background-color: salmon;
 }
-
 .card:hover {
   transform: scale(1.15);
   transition: all 0.3s;
@@ -61,7 +61,6 @@
   grid-gap: 10px;
   padding: 20px;
 }
-
 .gallery img {
   width: 100%;
   height: auto;
@@ -103,11 +102,9 @@ header {
 header nav li header nav li {
   margin: 0 15px;
 }
-
 header nav li header nav li:first-child {
   margin-left: 0;
 }
-
 header nav li header nav li:last-child {
   margin-right: 0;
 }
@@ -146,7 +143,6 @@ header nav li header nav li:last-child {
   z-index: -1;
   background-image: url(https://img.freepik.com/fotos-premium/joven-traje-hombre-barba-retrato-masculino-sobre-fondo-negro-hombre-elegante-foto-blanco-negro-modelo-masculino-retrato-estudio-chico-traje-clasico_154724-54.jpg);
 }
-
 .banner-area .banner-img:after {
   content: "";
   position: absolute;
@@ -246,18 +242,15 @@ ul.servicios-content {
   flex-basis: 33%;
   text-align: center;
 }
-
 .servicios-content li i {
   font-size: 50px;
   color: crimson;
   margin-bottom: 25px;
 }
-
 .servicios-content li h4 {
   font-size: 20px;
   margin-bottom: 25px;
 }
-
 .servicios-content li p {
   margin: 0;
 }
@@ -313,7 +306,6 @@ ul.servicios-content {
   text-align: center;
   transition: all 300ms ease;
 }
-
 .pie-pagina .grupo-1 .red-social a:hover {
   color: aqua;
 }
@@ -330,7 +322,6 @@ ul.servicios-content {
 }
 
 .formm {
-  background-image: url(https://i.ytimg.com/vi/na4vmhat_dY/maxresdefault.jpg);
   position: absolute;
   top: 0;
   left: 0;
@@ -339,7 +330,6 @@ ul.servicios-content {
   background-size: cover;
   z-index: -1;
 }
-
 .formm:after {
   content: "";
   position: absolute;
@@ -357,8 +347,14 @@ ul.servicios-content {
   .section {
     padding: 125px 30px;
   }
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 0px) and (max-width: 767.98px) {
   body {
     font-size: 15px;
   }
@@ -419,6 +415,4 @@ ul.servicios-content {
     font-size: 17px;
   }
   /* Agrega aquí los estilos específicos para pantallas extra grandes */
-} 
-
-/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
